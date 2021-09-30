@@ -1,0 +1,47 @@
+@media screen and (max-width:700px){
+   
+  
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    header{
+        height: 16vh;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+    .logo img{
+        width: 16vw;
+        
+    }
+    nav ul{
+        height: 34px;
+        justify-content: center;
+        padding: 2vw;
+    }
+    .search{
+        /* margin: -2vh 12px; */
+        justify-content: center;
+        position: relative;
+    bottom: 2vh;
+
+    }
+    .search input{
+        width: 40vw;
+        margin: 2vh ;
+    }
+    .carditem img{
+        width: 15vw;
+
+    }
+    li{
+        padding: 0 5vw;
+    }
+    .carditem{
+        padding: 0 1vw;
+    }
+    
+    
+}

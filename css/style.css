@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+:root {
+    --main-bg-color: #2874f0;
+  }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+footer {
+  height: 12vh;
+  background-color: var(--main-bg-color);
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+header{
+    background: var(--main-bg-color);
+    height: 9vh;
+    /* border: 2px solid red; */
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    
+}
+.container{
+    min-height:78vh;
+}
+nav{
+    display: flex;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 6vw;
+    padding: 0 25px;
+    margin: 0 30px;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 9vh;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+    
+}
+nav ul li a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+
+}
+nav ul li a:hover{
+    font-weight: bolder;
+    
+
+}
+input{
+    width: 20vw;
+    height: 4vh;
+    border-radius: 2px;
+    margin: 0 10px;
+    padding: 0 10px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 22px;
+    line-height: 32px;
+    display: inline-block;
+    font-weight: 500;
+    font-weight: bolder;
+    position: relative;
+    height: 15vh;
+    left: 20px;
+    top: 40px;
+}
+.search button{
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+
+}
+.search button:hover{
+    
+    font-weight: 900;
+
+}
+.slider{
+    /* display: flex;
+    justify-content: center; */
+    /* ANOTHER OPTION FOR CENTER THE IMAGE */
+    width: 80vw;
+    margin: 5px auto;
+    overflow: hidden;
+    
+}
+.slider img{
+    width: 85vw;
+}
+.card{
+    max-width: 85vw;
+    background: whitesmoke;
+    margin: 0 auto;
+    box-sizing: border-box;
+    overflow:scroll ;
+    
+}
+.carditem{
+    width: 10vw;
+    display:inline-flex ;
+    justify-content: center;
+    flex-direction: column;
+    margin:0 14px;
+}
+.lines{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 9vw;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 120vw;
+}
+.textcenter1{
+    color: #388e3c;;
+}
+
